@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>QR Codes</title>
+    <style>
+      body {
+        background-color: #f5f5f5;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+
+      h1 {
+        margin-top: 40px;
+        font-size: 28px;
+      }
+
+      .container {
+        margin: 40px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 800px;
+      }
+
+      .qr-code {
+        margin: 20px;
+        padding: 20px;
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .qr-code img {
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      .qr-code p {
+        margin: 0;
+        font-size: 16px;
+      }
+
+      .contact-info {
+        font-size: 14px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>QR Codes</h1>
+    <div class="container">
+      <div class="qr-code">
+        <img src="img/github.com.png" alt="GitHub QR Code" />
+        <p>Scannez le code QR pour accéder à mon GitHub</p>
+        <a
+          class="contact-info"
+          href="https://github.com/TabarBaptiste"
+          target="_blank"
+          >GitHub : https://github.com/TabarBaptiste</a
+        >
+      </div>
+      <div class="qr-code">
+        <img src="img/portfolio-tabarlabonne.png" alt="Portfolio QR Code" />
+        <p>Scannez le code QR pour accéder à mon Portfolio</p>
+        <a
+          class="contact-info"
+          href="https://portfolio-tabarlabonne.netlify.app/"
+          target="_blank"
+          >Portfolio : https://portfolio-tabarlabonne.netlify.app/</a
+        >
+      </div>
+    </div>
+    <div class="qr-code">
+      <p class="contact-info">Nom : Baptiste TABAR LABONNE</p>
+      <p class="contact-info">E-mail : tabarbaptiste@gmail.com</p>
+      <p class="contact-info">Téléphone : 07 63 48 62 78</p>
+    </div>
+  </body>
+</html>
